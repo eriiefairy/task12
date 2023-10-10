@@ -1,2 +1,4 @@
-FROM nginx
-COPY . /usr/share/nginx/htmlr
+FROM pypy:latest
+WORKDIR /app
+COPY . /app
+CMD python . /semantic.py
