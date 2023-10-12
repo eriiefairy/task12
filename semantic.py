@@ -1,5 +1,5 @@
 import spacy
-nlp = spacy.load('en_core_web_sd')
+nlp = spacy.load('en_core_web_md')
 
 word1 = nlp("cat")
 word2 = nlp("monkey")
