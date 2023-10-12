@@ -1,3 +1,0 @@
-FROM pypy:latest
-COPY semantic.py ./
-CMD [ "python", "./semantic.py"]
