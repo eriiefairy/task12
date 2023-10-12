@@ -33,4 +33,7 @@ for sentence in sentences:
 # What I find interesting about the similarities between cat, monkey, and banana is that they can be related through
 # their properties and attributes, such as being living organisms and having specific physical features. However,
 # they also differ in various ways, such as their type of food consumption, behavior, and natural habitats.
+
+# NOTES ON WHAT IS DIFFERENT:
+# the results are different from the ones obtained with the 'en_core_web_md' model. This is because the 'en_core_web_sm'
 # model has a smaller vocabulary and is less accurate in understanding complex sentences and nuanced language.
